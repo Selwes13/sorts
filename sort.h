@@ -15,7 +15,7 @@ private:
 	static int* QSPartition(int* arr, int start, int end);
 
 	static int* maxHeapify(int* arr, int len, int end);
-public:
+	
 	static int* merge(int* arr1, int len1, int* arr2, int len2);
 	static int* partArray(int* fullArray, int from, int to);
 };
